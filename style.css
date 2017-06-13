@@ -1,0 +1,10 @@
+body {
+	background-image: url("bike.jpg");
+	background-repeat:no-repeat;
+    background-position: center center;
+	background-attachment: fixed;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+	background-size: cover;
+	font-family: "Helvetica";
+}
