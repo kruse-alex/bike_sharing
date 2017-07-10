@@ -10,7 +10,7 @@ shinyServer(
   function(input, output, session){
     
     # setwd
-    setwd("C:/Users/akruse/Documents/Projekte_Weitere/stadtrad")
+    # setwd("C:/Users/akruse/Documents/Projekte_Weitere/stadtrad")
     
     # load hamburg shape for map
     hhshape <- readOGR(dsn = ".", layer = "HH_ALKIS_Landesgrenze")
