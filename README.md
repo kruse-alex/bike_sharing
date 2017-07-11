@@ -1,7 +1,7 @@
 ## Visualization of usage of bike sharing network in Hamburg (StadtRAD)
  + Data: http://data.deutschebahn.com/dataset/data-call-a-bike
  + Use the map here: https://alexkruse.shinyapps.io/stadtrad/
- + I also created a [Poster](https://github.com/kruse-alex/bike_sharing/blob/master/Kruse_poster-session.pdf) for useR 2017 Poster Session
+ + I also created a [Poster](https://github.com/kruse-alex/bike_sharing/blob/master/Kruse_poster-session.pdf) for [useR 2017](https://user2017.brussels/posters) Poster Session
  
 My interactive map shows the bike sharing usage of StadtRAD, the bike sharing system in Hamburg – Germany. The data is available on the open data platform from Deutsche Bahn, the public railway company in Germany. The last new StadtRAD station was put into operation in May 2016, that is why a have chosen to display the usage of June 2016. The brighter the lines, the more bikes have been cycled along that street. 
 
