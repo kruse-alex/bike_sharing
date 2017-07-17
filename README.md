@@ -1,4 +1,4 @@
-I'm currently working on an article on the usage of open data for bicycle traffic planning: https://docs.google.com/document/d/1WVloaTVAoSKEca26mmZwQzuJxj-APsmo6NE-cYAz1HA/edit?usp=sharing (german)
+I'm currently working on an article on the usage of open data for bicycle traffic planning: https://github.com/kruse-alex/hh_bike_usage
 
 ## Visualization of usage of bike sharing network in Hamburg (StadtRAD)
  + Data: http://data.deutschebahn.com/dataset/data-call-a-bike
