@@ -1,4 +1,4 @@
-I'm currently working on an article on the usage of open data for bicycle traffic planning: https://github.com/kruse-alex/hh_bike_usage
+Rean an article on the usage of open data for bicycle traffic planning on my [Medium](https://medium.com/@alex_kruse/nutzung-von-open-data-im-rahmen-der-radverkehrsstrategie-9cf85a813c48)
 
 ## Visualization of usage of bike sharing network in Hamburg (StadtRAD)
  + Data: http://data.deutschebahn.com/dataset/data-call-a-bike
