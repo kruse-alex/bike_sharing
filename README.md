@@ -14,15 +14,3 @@ From data processing and spatial analysis to visualization the whole project was
 I created a calendar heatmap with the superheat package. The code to create this heatmap is also in this Repo (superheat_processing.R).
 
 ![alt text](https://github.com/kruse-alex/bike_sharing/blob/master/superheat.png)
-
-I also created some joyplots with ggplot. On the first plot you can see the difference between working days and the weekend.
-
-![alt text](https://github.com/kruse-alex/bike_sharing/blob/master/joyplot_dayofweek-time.svg)
-
-The next plot shows the change of daily usage over the months. In the summer people get earlier on StadtRAD.
-
-![alt text](https://github.com/kruse-alex/bike_sharing/blob/master/joyplot_month-time.svg)
-
-The next plot let you compare the months by daily usage. Not a lot of people using StadtRAD during Chrismas
-
-![alt text](https://github.com/kruse-alex/bike_sharing/blob/master/joyplot_dayofweek-weekdays.svg)
