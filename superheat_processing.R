@@ -16,7 +16,7 @@ Sys.setlocale("LC_TIME", "C")
 #############################################################################################################################################
 
 # setwd
-setwd("C:/Users/akruse/Documents/Projekte_Weitere/stadtrad/heatmap")
+# your wd
 
 # load data (download data from Deutsche Bahn)
 mydata = read.csv.sql("OPENDATA_BOOKING_CALL_A_BIKE.csv", sql = "select * from file where CITY_RENTAL_ZONE = '\"Hamburg\"' ", sep = ";")
