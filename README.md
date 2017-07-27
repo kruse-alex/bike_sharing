@@ -11,6 +11,18 @@ My interactive map shows the bike sharing usage of StadtRAD, the bike sharing sy
  
 From data processing and spatial analysis to visualization the whole project was done in R. I have used the leaflet and shiny package to display the data interactively. The bikes themselves don’t have GPS, so the routes are estimated on a shortest route basis using the awesome cyclestreets API. The biggest challenge has been the aggregation of overlapping routes. I found the overline function from the stplanr package very helpful. It converts a series of overlaying lines and aggregates their values for overlapping segments. The raw data file from Deutsche Bahn is quite huge so I struggled to import the data into R to process it. In the end the read.csv.sql function from the sqldf package did the job.
 
-I also created a calendar heatmap with the superheat package. The code to create this heatmap is also in this Repo (superheat_processing.R).
+I created a calendar heatmap with the superheat package. The code to create this heatmap is also in this Repo (superheat_processing.R).
 
-![alt text](https://github.com/kruse-alex/bike_sharing/blob/master/superheat.png) 
+![alt text](https://github.com/kruse-alex/bike_sharing/blob/master/superheat.png)
+
+I also created some joyplots with ggplot. On the first plot you can see the difference between working days and the weekend.
+
+![alt text](https://github.com/kruse-alex/bike_sharing/blob/master/joyplot_dayofweek-time.svg)
+
+The next plot shows the change of daily usage over the months. In the summer people get earlier on StadtRAD.
+
+![alt text](https://github.com/kruse-alex/bike_sharing/blob/master/joyplot_month-time.svg)
+
+The next plot let you compare the months by daily usage. Not a lot of people using StadtRAD during Chrismas
+
+![alt text](https://github.com/kruse-alex/bike_sharing/blob/master/joyplot_dayofweek-weekdays.svg)
