@@ -11,18 +11,18 @@ My interactive map shows the bike sharing usage of StadtRAD, the bike sharing sy
  
 From data processing and spatial analysis to visualization the whole project was done in R. I have used the leaflet and shiny package to display the data interactively. The bikes themselves don’t have GPS, so the routes are estimated on a shortest route basis using the awesome cyclestreets API. The biggest challenge has been the aggregation of overlapping routes. I found the overline function from the stplanr package very helpful. It converts a series of overlaying lines and aggregates their values for overlapping segments. The raw data file from Deutsche Bahn is quite huge so I struggled to import the data into R to process it. In the end the read.csv.sql function from the sqldf package did the job.
 
-I created a calendar heatmap with the superheat package. The code to create this heatmap is also in this Repo (superheat_processing.R).
+To further analyze the StadtRAD data I also took the full booking data from 2015 and did some diagrams. The first one is a calendar heatmap where you can see the amount of rented bikes aggregated on a daily basis. On the top of the graph you can see a barplot representing the rented bikes aggregated by the day of week. On the right you see a barplot to display the StadtRAD Usage for each calendar week of 2016. The idea to use calendar heatmaps to display bike sharing usage comes from [Via Velox](http://infovis-mannheim.de/viavelox/). The code to create this heatmap is also in this Repo.
 
 ![alt text](https://github.com/kruse-alex/bike_sharing/blob/master/superheat.png)
 
-dayofweek over time. diff weekend working day
+I also created joyplots with ggplot to display and analyze the data. The first one shows the daily usage of every weekday. You can see big differences between working days and the weekend.
 
 ![alt text](https://github.com/kruse-alex/bike_sharing/blob/master/joyplot_dayofweek-time.png)
 
-time over months. later in the summer
+The next diagram shows the daily usage per month. You can see that people renting bike earlier in the summer.
 
 ![alt text](https://github.com/kruse-alex/bike_sharing/blob/master/joyplot_month-time.png)
 
-christmas
+The last diagram shows the differences between the months on a daily basis. You can see that people were not using StadtRAD a lot during chrismas.
 
 ![alt text](https://github.com/kruse-alex/bike_sharing/blob/master/joyplot_month-weekdays.png)
