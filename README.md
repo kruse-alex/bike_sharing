@@ -17,12 +17,12 @@ I created a calendar heatmap with the superheat package. The code to create this
 
 dayofweek over time. diff weekend working day
 
-![alt text](https://github.com/kruse-alex/bike_sharing/blob/master/joyplot_dayofweek-time.PNG)
+![alt text](https://github.com/kruse-alex/bike_sharing/blob/master/joyplot_dayofweek-time.png)
 
 time over months. later in the summer
 
-![alt text](https://github.com/kruse-alex/bike_sharing/blob/master/joyplot_month-time.PNG)
+![alt text](https://github.com/kruse-alex/bike_sharing/blob/master/joyplot_month-time.png)
 
 christmas
 
-![alt text](https://github.com/kruse-alex/bike_sharing/blob/master/joyplot_month-weekdays.PNG)
+![alt text](https://github.com/kruse-alex/bike_sharing/blob/master/joyplot_month-weekdays.png)
