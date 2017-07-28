@@ -14,3 +14,15 @@ From data processing and spatial analysis to visualization the whole project was
 I created a calendar heatmap with the superheat package. The code to create this heatmap is also in this Repo (superheat_processing.R).
 
 ![alt text](https://github.com/kruse-alex/bike_sharing/blob/master/superheat.png)
+
+dayofweek over time. diff weekend working day
+
+![alt text](https://github.com/kruse-alex/bike_sharing/blob/master/joyplot_dayofweek-time.PNG)
+
+time over months. later in the summer
+
+![alt text](https://github.com/kruse-alex/bike_sharing/blob/master/joyplot_month-time.PNG)
+
+christmas
+
+![alt text](https://github.com/kruse-alex/bike_sharing/blob/master/joyplot_month-weekdays.PNG)
